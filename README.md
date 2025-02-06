@@ -5,9 +5,13 @@ To solve this using the Naïve Bayes classification technique, we first calculat
 ### **Step 1: Calculate Prior Probabilities**
 - Total instances: 10  
   - **Evade = Yes**: 3 instances (Tid 5, 8, 10)  
-    $$ P(\text{Evade=Yes}) = \frac{3}{10} = 0.3 $$  
+    $$
+    P(\text{Evade=Yes}) = \frac{3}{10} = 0.3
+    $$  
   - **Evade = No**: 7 instances (Tid 1, 2, 3, 4, 6, 7, 9)  
-    $$ P(\text{Evade=No}) = \frac{7}{10} = 0.7 $$
+    $$
+    P(\text{Evade=No}) = \frac{7}{10} = 0.7
+    $$
 
 ---
 
